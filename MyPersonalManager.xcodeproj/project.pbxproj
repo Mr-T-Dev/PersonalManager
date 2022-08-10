@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		15FBB06428A29A9000B9BF45 /* MyPersonalManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB06328A29A9000B9BF45 /* MyPersonalManagerApp.swift */; };
-		15FBB06628A29A9000B9BF45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB06528A29A9000B9BF45 /* ContentView.swift */; };
+		15FBB06628A29A9000B9BF45 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB06528A29A9000B9BF45 /* DashboardView.swift */; };
 		15FBB06828A29A9200B9BF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FBB06728A29A9200B9BF45 /* Assets.xcassets */; };
 		15FBB06B28A29A9200B9BF45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FBB06A28A29A9200B9BF45 /* Preview Assets.xcassets */; };
+		15FBB07628A2CCEB00B9BF45 /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB07528A2CCEB00B9BF45 /* FinanceView.swift */; };
+		15FBB07928A2CD6B00B9BF45 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB07828A2CD6B00B9BF45 /* CalendarView.swift */; };
+		15FBB07C28A2CD9600B9BF45 /* AlimentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB07B28A2CD9600B9BF45 /* AlimentationView.swift */; };
+		15FBB07E28A2D15800B9BF45 /* FinanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB07D28A2D15800B9BF45 /* FinanceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15FBB06028A29A9000B9BF45 /* MyPersonalManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPersonalManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FBB06328A29A9000B9BF45 /* MyPersonalManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPersonalManagerApp.swift; sourceTree = "<group>"; };
-		15FBB06528A29A9000B9BF45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15FBB06528A29A9000B9BF45 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		15FBB06728A29A9200B9BF45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15FBB06A28A29A9200B9BF45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15FBB06C28A29A9200B9BF45 /* MyPersonalManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyPersonalManager.entitlements; sourceTree = "<group>"; };
+		15FBB07528A2CCEB00B9BF45 /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		15FBB07828A2CD6B00B9BF45 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		15FBB07B28A2CD9600B9BF45 /* AlimentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentationView.swift; sourceTree = "<group>"; };
+		15FBB07D28A2D15800B9BF45 /* FinanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,8 @@
 		15FBB06228A29A9000B9BF45 /* MyPersonalManager */ = {
 			isa = PBXGroup;
 			children = (
+				15FBB07228A2CA8B00B9BF45 /* Main */,
 				15FBB06328A29A9000B9BF45 /* MyPersonalManagerApp.swift */,
-				15FBB06528A29A9000B9BF45 /* ContentView.swift */,
 				15FBB06728A29A9200B9BF45 /* Assets.xcassets */,
 				15FBB06C28A29A9200B9BF45 /* MyPersonalManager.entitlements */,
 				15FBB06928A29A9200B9BF45 /* Preview Content */,
@@ -67,6 +75,50 @@
 				15FBB06A28A29A9200B9BF45 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15FBB07228A2CA8B00B9BF45 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB07A28A2CD7F00B9BF45 /* Alimentation */,
+				15FBB07728A2CD5D00B9BF45 /* Calendar */,
+				15FBB07428A2CCD700B9BF45 /* Finance */,
+				15FBB07328A2CA9200B9BF45 /* Dashboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		15FBB07328A2CA9200B9BF45 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB06528A29A9000B9BF45 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		15FBB07428A2CCD700B9BF45 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB07528A2CCEB00B9BF45 /* FinanceView.swift */,
+				15FBB07D28A2D15800B9BF45 /* FinanceViewModel.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		15FBB07728A2CD5D00B9BF45 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB07828A2CD6B00B9BF45 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		15FBB07A28A2CD7F00B9BF45 /* Alimentation */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB07B28A2CD9600B9BF45 /* AlimentationView.swift */,
+			);
+			path = Alimentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FBB06628A29A9000B9BF45 /* ContentView.swift in Sources */,
+				15FBB07C28A2CD9600B9BF45 /* AlimentationView.swift in Sources */,
+				15FBB06628A29A9000B9BF45 /* DashboardView.swift in Sources */,
+				15FBB07628A2CCEB00B9BF45 /* FinanceView.swift in Sources */,
+				15FBB07928A2CD6B00B9BF45 /* CalendarView.swift in Sources */,
 				15FBB06428A29A9000B9BF45 /* MyPersonalManagerApp.swift in Sources */,
+				15FBB07E28A2D15800B9BF45 /* FinanceViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
