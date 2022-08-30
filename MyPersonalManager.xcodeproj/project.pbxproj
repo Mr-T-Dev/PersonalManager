@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15419FCF28BD063600755558 /* SheetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15419FCE28BD063600755558 /* SheetEntry.swift */; };
+		15419FD228BD066300755558 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15419FD128BD066300755558 /* Transaction.swift */; };
+		15419FD428BD069500755558 /* BuyTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15419FD328BD069500755558 /* BuyTransaction.swift */; };
+		15419FD728BD07B700755558 /* TransactionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15419FD628BD07B700755558 /* TransactionParser.swift */; };
+		15419FDA28BD11D300755558 /* ParseResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15419FD928BD11D300755558 /* ParseResultView.swift */; };
+		15419FDF28BD14B900755558 /* ParseResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15419FDE28BD14B900755558 /* ParseResultViewModel.swift */; };
+		15419FE228BD2E0500755558 /* FinanceURLUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15419FE128BD2E0500755558 /* FinanceURLUpload.swift */; };
+		15969C7228A3D4FE00731CCA /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = 15969C7128A3D4FE00731CCA /* CoreXLSX */; };
+		15969C7528A3D5C800731CCA /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C7428A3D5C800731CCA /* AppError.swift */; };
+		15969C7828A3D63200731CCA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C7728A3D63200731CCA /* Strings.swift */; };
+		15969C7B28A3DF4700731CCA /* SheetParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C7A28A3DF4700731CCA /* SheetParser.swift */; };
+		15969C7D28A3E14600731CCA /* SabadellParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C7C28A3E14600731CCA /* SabadellParser.swift */; };
+		15969C7F28A3E5C800731CCA /* DateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C7E28A3E5C800731CCA /* DateParser.swift */; };
+		15969C8228A3E68700731CCA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C8128A3E68700731CCA /* Date.swift */; };
+		15969C8428A3E6DC00731CCA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C8328A3E6DC00731CCA /* String.swift */; };
+		15969C8728A3E88200731CCA /* XLSXFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C8628A3E88200731CCA /* XLSXFile.swift */; };
+		15969C8A28A4516C00731CCA /* FinanceDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C8928A4516C00731CCA /* FinanceDataBase.swift */; };
+		15969C8E28A4529800731CCA /* MovementEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969C8D28A4529800731CCA /* MovementEntry.swift */; };
+		15969C9128A4532D00731CCA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 15969C9028A4532D00731CCA /* RealmSwift */; };
 		15FBB06428A29A9000B9BF45 /* MyPersonalManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB06328A29A9000B9BF45 /* MyPersonalManagerApp.swift */; };
 		15FBB06628A29A9000B9BF45 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBB06528A29A9000B9BF45 /* DashboardView.swift */; };
 		15FBB06828A29A9200B9BF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FBB06728A29A9200B9BF45 /* Assets.xcassets */; };
@@ -18,6 +37,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15419FCE28BD063600755558 /* SheetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetEntry.swift; sourceTree = "<group>"; };
+		15419FD128BD066300755558 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		15419FD328BD069500755558 /* BuyTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTransaction.swift; sourceTree = "<group>"; };
+		15419FD628BD07B700755558 /* TransactionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionParser.swift; sourceTree = "<group>"; };
+		15419FD928BD11D300755558 /* ParseResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseResultView.swift; sourceTree = "<group>"; };
+		15419FDE28BD14B900755558 /* ParseResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseResultViewModel.swift; sourceTree = "<group>"; };
+		15419FE128BD2E0500755558 /* FinanceURLUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceURLUpload.swift; sourceTree = "<group>"; };
+		15969C7428A3D5C800731CCA /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		15969C7728A3D63200731CCA /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		15969C7A28A3DF4700731CCA /* SheetParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetParser.swift; sourceTree = "<group>"; };
+		15969C7C28A3E14600731CCA /* SabadellParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabadellParser.swift; sourceTree = "<group>"; };
+		15969C7E28A3E5C800731CCA /* DateParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateParser.swift; sourceTree = "<group>"; };
+		15969C8128A3E68700731CCA /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		15969C8328A3E6DC00731CCA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		15969C8628A3E88200731CCA /* XLSXFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLSXFile.swift; sourceTree = "<group>"; };
+		15969C8928A4516C00731CCA /* FinanceDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDataBase.swift; sourceTree = "<group>"; };
+		15969C8D28A4529800731CCA /* MovementEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementEntry.swift; sourceTree = "<group>"; };
 		15FBB06028A29A9000B9BF45 /* MyPersonalManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPersonalManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FBB06328A29A9000B9BF45 /* MyPersonalManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPersonalManagerApp.swift; sourceTree = "<group>"; };
 		15FBB06528A29A9000B9BF45 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
@@ -35,12 +71,124 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15969C9128A4532D00731CCA /* RealmSwift in Frameworks */,
+				15969C7228A3D4FE00731CCA /* CoreXLSX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15419FCD28BD062700755558 /* SheetEntry */ = {
+			isa = PBXGroup;
+			children = (
+				15419FCE28BD063600755558 /* SheetEntry.swift */,
+				15419FD128BD066300755558 /* Transaction.swift */,
+				15419FD328BD069500755558 /* BuyTransaction.swift */,
+			);
+			path = SheetEntry;
+			sourceTree = "<group>";
+		};
+		15419FD528BD07AC00755558 /* TransactionParser */ = {
+			isa = PBXGroup;
+			children = (
+				15419FD628BD07B700755558 /* TransactionParser.swift */,
+			);
+			path = TransactionParser;
+			sourceTree = "<group>";
+		};
+		15419FD828BD11B700755558 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15419FE028BD14FF00755558 /* ParseResultView */,
+				15419FDD28BD14A700755558 /* FinanceView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15419FDD28BD14A700755558 /* FinanceView */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB07528A2CCEB00B9BF45 /* FinanceView.swift */,
+				15FBB07D28A2D15800B9BF45 /* FinanceViewModel.swift */,
+			);
+			path = FinanceView;
+			sourceTree = "<group>";
+		};
+		15419FE028BD14FF00755558 /* ParseResultView */ = {
+			isa = PBXGroup;
+			children = (
+				15419FD928BD11D300755558 /* ParseResultView.swift */,
+				15419FDE28BD14B900755558 /* ParseResultViewModel.swift */,
+			);
+			path = ParseResultView;
+			sourceTree = "<group>";
+		};
+		15969C7328A3D5B800731CCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15969C7428A3D5C800731CCA /* AppError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15969C7628A3D62300731CCA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				15419FD528BD07AC00755558 /* TransactionParser */,
+				15969C8028A3E67A00731CCA /* Extensions */,
+				15969C7928A3DF2C00731CCA /* SheetParser */,
+				15969C7728A3D63200731CCA /* Strings.swift */,
+				15969C7E28A3E5C800731CCA /* DateParser.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		15969C7928A3DF2C00731CCA /* SheetParser */ = {
+			isa = PBXGroup;
+			children = (
+				15969C7A28A3DF4700731CCA /* SheetParser.swift */,
+				15969C7C28A3E14600731CCA /* SabadellParser.swift */,
+			);
+			path = SheetParser;
+			sourceTree = "<group>";
+		};
+		15969C8028A3E67A00731CCA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15969C8128A3E68700731CCA /* Date.swift */,
+				15969C8328A3E6DC00731CCA /* String.swift */,
+				15969C8628A3E88200731CCA /* XLSXFile.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		15969C8828A4514F00731CCA /* PersistanceData */ = {
+			isa = PBXGroup;
+			children = (
+				15969C8928A4516C00731CCA /* FinanceDataBase.swift */,
+			);
+			path = PersistanceData;
+			sourceTree = "<group>";
+		};
+		15969C8B28A4518900731CCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15419FCD28BD062700755558 /* SheetEntry */,
+				15969C8C28A4518F00731CCA /* DataBase */,
+				15419FE128BD2E0500755558 /* FinanceURLUpload.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15969C8C28A4518F00731CCA /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				15969C8D28A4529800731CCA /* MovementEntry.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
 		15FBB05728A29A9000B9BF45 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +208,8 @@
 		15FBB06228A29A9000B9BF45 /* MyPersonalManager */ = {
 			isa = PBXGroup;
 			children = (
+				15969C7628A3D62300731CCA /* Utils */,
+				15969C7328A3D5B800731CCA /* Models */,
 				15FBB07228A2CA8B00B9BF45 /* Main */,
 				15FBB06328A29A9000B9BF45 /* MyPersonalManagerApp.swift */,
 				15FBB06728A29A9200B9BF45 /* Assets.xcassets */,
@@ -99,8 +249,9 @@
 		15FBB07428A2CCD700B9BF45 /* Finance */ = {
 			isa = PBXGroup;
 			children = (
-				15FBB07528A2CCEB00B9BF45 /* FinanceView.swift */,
-				15FBB07D28A2D15800B9BF45 /* FinanceViewModel.swift */,
+				15419FD828BD11B700755558 /* Views */,
+				15969C8B28A4518900731CCA /* Models */,
+				15969C8828A4514F00731CCA /* PersistanceData */,
 			);
 			path = Finance;
 			sourceTree = "<group>";
@@ -131,12 +282,17 @@
 				15FBB05C28A29A9000B9BF45 /* Sources */,
 				15FBB05D28A29A9000B9BF45 /* Frameworks */,
 				15FBB05E28A29A9000B9BF45 /* Resources */,
+				15969C8528A3E70900731CCA /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyPersonalManager;
+			packageProductDependencies = (
+				15969C7128A3D4FE00731CCA /* CoreXLSX */,
+				15969C9028A4532D00731CCA /* RealmSwift */,
+			);
 			productName = MyPersonalManager;
 			productReference = 15FBB06028A29A9000B9BF45 /* MyPersonalManager.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +321,10 @@
 				Base,
 			);
 			mainGroup = 15FBB05728A29A9000B9BF45;
+			packageReferences = (
+				15969C7028A3D4FE00731CCA /* XCRemoteSwiftPackageReference "CoreXLSX" */,
+				15969C8F28A4532D00731CCA /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 15FBB06128A29A9000B9BF45 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -186,17 +346,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15969C8528A3E70900731CCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15FBB05C28A29A9000B9BF45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				15FBB07C28A2CD9600B9BF45 /* AlimentationView.swift in Sources */,
+				15969C8428A3E6DC00731CCA /* String.swift in Sources */,
+				15969C8A28A4516C00731CCA /* FinanceDataBase.swift in Sources */,
 				15FBB06628A29A9000B9BF45 /* DashboardView.swift in Sources */,
+				15969C7D28A3E14600731CCA /* SabadellParser.swift in Sources */,
+				15969C7828A3D63200731CCA /* Strings.swift in Sources */,
+				15419FDA28BD11D300755558 /* ParseResultView.swift in Sources */,
 				15FBB07628A2CCEB00B9BF45 /* FinanceView.swift in Sources */,
 				15FBB07928A2CD6B00B9BF45 /* CalendarView.swift in Sources */,
+				15419FD228BD066300755558 /* Transaction.swift in Sources */,
 				15FBB06428A29A9000B9BF45 /* MyPersonalManagerApp.swift in Sources */,
+				15969C8228A3E68700731CCA /* Date.swift in Sources */,
 				15FBB07E28A2D15800B9BF45 /* FinanceViewModel.swift in Sources */,
+				15419FD428BD069500755558 /* BuyTransaction.swift in Sources */,
+				15419FD728BD07B700755558 /* TransactionParser.swift in Sources */,
+				15969C8E28A4529800731CCA /* MovementEntry.swift in Sources */,
+				15969C7528A3D5C800731CCA /* AppError.swift in Sources */,
+				15969C7F28A3E5C800731CCA /* DateParser.swift in Sources */,
+				15969C8728A3E88200731CCA /* XLSXFile.swift in Sources */,
+				15419FDF28BD14B900755558 /* ParseResultViewModel.swift in Sources */,
+				15419FE228BD2E0500755558 /* FinanceURLUpload.swift in Sources */,
+				15969C7B28A3DF4700731CCA /* SheetParser.swift in Sources */,
+				15419FCF28BD063600755558 /* SheetEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +589,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15969C7028A3D4FE00731CCA /* XCRemoteSwiftPackageReference "CoreXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/CoreXLSX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+		15969C8F28A4532D00731CCA /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15969C7128A3D4FE00731CCA /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15969C7028A3D4FE00731CCA /* XCRemoteSwiftPackageReference "CoreXLSX" */;
+			productName = CoreXLSX;
+		};
+		15969C9028A4532D00731CCA /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15969C8F28A4532D00731CCA /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 15FBB05828A29A9000B9BF45 /* Project object */;
 }
